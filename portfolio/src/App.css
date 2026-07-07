@@ -192,7 +192,11 @@ a, a:active, a:hover {
 
 .about .about-img .about-img-wrapper img {
   width: 60%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
 }
+
 /* End About Section */
 
 /* Projects section */
