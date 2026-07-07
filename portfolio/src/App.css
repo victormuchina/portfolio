@@ -24,12 +24,14 @@ a, a:active, a:hover {
   position: fixed;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  height: 5rem;
 }
 
 .header-name {
   color: #edf2f4;
   padding: 0.7em;
-  font-size: 1rem;
+  font-size: 1.3rem;
   animation: show 0.5s;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -197,7 +199,7 @@ a, a:active, a:hover {
 .projects {
   background-color: #e9d5a1;
   height: 65vh;
-  margin-top: -2rem;
+  margin-top: 0rem;
 }
 .heading {
   font-size: 2rem;
