@@ -286,3 +286,24 @@ a, a:active, a:hover {
   color: white;
 }
 
+/* Skills section */
+.skills {
+  background-color: white;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 4rem;
+  color: black;
+  margin: 3rem 0;
+  text-align: center;
+  margin-top: 5%;
+  letter-spacing: 0.3rem;
+}
+.skill-cards {
+  background-color: gray;
+  padding: 1.2rem 1rem 1rem 1rem;
+  margin: 0;
+}
